@@ -242,9 +242,9 @@ const EceEventData = [
     {
         event_id:55,
         name: 'Workshop',
-        description: 'Hands on Training on Robotics with IIT Bombay Certificate',
+        description: 'Hands on Training on Self Driving Car using AI with IIT Bombay Certificate',
         event_type:'Competition' ,
-        fee:590,
+        fee:450,
         student1: 'Angitha N',
         s1_phone: 9995130907,
         student2: 'Niswarth A V',
