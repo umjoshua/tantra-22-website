@@ -13,7 +13,7 @@ function Home() {
       <div className='bg-black text-[white] font-[Quicksand] home'>
         <Navbar />
         <section id="home">
-          {/* <Poster /> */}
+          <Poster />
         </section>
         <section id="events">
           <Cards />
