@@ -24,7 +24,7 @@ const sem = [
 
 function RegisterB() {
     // const url = "https://tantra.herokuapp.com/register"
-    const url = "https://smiling-wetsuit-toad.cyclic.app/";
+    const url = "https://smiling-wetsuit-toad.cyclic.app/register";
     const navigate = useNavigate();
     const { state } = useLocation();
     const { name, fee, dept, event_id } = state;
