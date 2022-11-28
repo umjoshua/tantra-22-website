@@ -2,9 +2,9 @@ const CseEventData = [
     {
         event_id:29,
         name: 'RogueCTF',
-        description: 'Capture the Flag (CTF) in computer security is an exercise in which "flags" are secretly hidden in purposefully-vulnerable programs or websites.The pariticipants need to find the flags hidden in the program given. The team/ person finding the most flag wins.',
+        description: 'Capture the Flag (CTF) is an exercise in which "flags" are secretly hidden in purposefully-vulnerable programs or websites. The participants need to find the flags hidden in the system given. The team/ person finding the most flag wins. Participants can be a group of maximum 3 members or can participate individually.',
         event_type: 'Competition',
-        fee: 400,
+        fee: 300,
         student1: 'Kiran P P',
         s1_phone: 9633581974,
         student2: 'Albin Thomas',
