@@ -197,7 +197,7 @@ const EeeEventData = [
         name:'Robosoccer',
         description:'Robots compete against each other in a  soccer',
         event_type: 'Games',
-        fee: 20,
+        fee: 50,
         student1: 'Noyal Jose',
         s1_phone: 8921098685,
         student2: 'Ebin Jhon',
