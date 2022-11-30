@@ -36,7 +36,7 @@ const AeiEventData = [
         name: 'Robo Soccer',
         description: 'a manual robot and which can compete on an arena specially designed for robotic soccer match',
         event_type:'Competition' ,
-        fee:100,
+        fee:50,
         student1: 'Mr.Mohammed Raheel',
         s1_phone: 9544368758,
         student2: 'Mr. Ashwin Thomas',
