@@ -253,7 +253,7 @@ const EceEventData = [
         prize: true,
         dept:'ece',
         reg: true,
-        group: true,
+        group: false,
     },
 ];
 
