@@ -212,7 +212,7 @@ const EceEventData = [
         name: 'GOLAZO',
         description: 'E- football mobile event behalf of FIFA world cup ',
         event_type:'Games' ,
-        fee:30,
+        fee:10,
         student1: 'Sebastian George',
         s1_phone: 9539450318,
         student2: 'Nevin Saji',
