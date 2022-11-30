@@ -124,7 +124,7 @@ const CseEventData = [
         staff: 'Ms. Manju',
         prize: false,
         dept:'cse',
-        reg: true,
+        reg: false,
         group: false,
     },
     {

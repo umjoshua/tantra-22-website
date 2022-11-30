@@ -19,7 +19,7 @@ const branches = [
 ]
 
 const sem = [
-    'S1', 'S3', 'S5', 'S7'
+    'S1', 'S3', 'S5', 'S7','NIL'
 ]
 
 function RegisterB() {
@@ -116,12 +116,12 @@ function RegisterB() {
                                             </div>
 
                                             <div className="md:col-span-3">
-                                                <label for="address">College * </label>
-                                                <input type="text" className="h-10 border mt-1 rounded px-4 w-full bg-white" placeholder="College" {...register('college')} />
+                                                <label for="address">Institute Name * </label>
+                                                <input type="text" className="h-10 border mt-1 rounded px-4 w-full bg-white" placeholder="Institute Name" {...register('college')} />
                                             </div>
 
                                             <div className="md:col-span-2">
-                                                <label for="city">Branch *</label>
+                                                <label for="city">Branch/Class *</label>
                                                 <Select options={branches} st={branch} setSt={setBranch} />
                                             </div>
                                             <div className="md:col-span-3">
