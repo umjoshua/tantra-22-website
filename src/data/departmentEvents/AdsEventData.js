@@ -2,7 +2,7 @@ const AdsEventData = [
     {
         event_id:1,
         name: 'GNIDOC',
-        description: 'Participants have to find solution for a given problem. Programming language will be either Python or C',
+        description: 'Participants have to find solution for a given problem. Programming language will be either Python or C. Particpants must have a hackerrank account',
         event_type: 'Competition',
         fee: 'FREE',
         student1: 'Austine S Manuel',
@@ -37,7 +37,7 @@ const AdsEventData = [
         name: 'Mystic',
         description: 'Participants have to find solution for a given problem. Programming language will be either Python or C where they have to either turn off their screens or should be blindfolded before they type.',
         event_type: 'Competition',
-        fee: 100,
+        fee: 25,
         student1: 'Aarsha Anil',
         s1_phone: 9778177547,
         student2: 'Ridha Gafoor',
@@ -67,7 +67,7 @@ const AdsEventData = [
     {
         event_id:4,
         name: 'Recoil',
-        description: 'Group wise event Games : Call of Duty, Valorant. (Team size will be five )',
+        description: 'Group wise event Games : Call of Duty Mobile (Team size will be four)',
         event_type: 'Competition',
         fee: 200,
         student1: 'Vaishak P',
