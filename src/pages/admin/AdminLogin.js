@@ -15,7 +15,7 @@ const AdminLogin = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "https://smiling-wetsuit-toad.cyclic.app/login";
+			const url = "https://cautious-waistcoat-mite.cyclic.app/login";
 			const { data: res } = await axios.post(url, data);
 			localStorage.setItem("token", res.token);
 			navigate('/admin');

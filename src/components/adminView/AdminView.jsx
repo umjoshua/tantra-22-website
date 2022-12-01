@@ -44,7 +44,7 @@ function AdminView() {
 
 
 
-    let baseUrl = "https://smiling-wetsuit-toad.cyclic.app/admin/api/";
+    let baseUrl = "https://cautious-waistcoat-mite.cyclic.app/admin/api/";
     let url = baseUrl + "responses";
     console.log(url);
     let branch = "";

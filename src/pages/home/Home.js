@@ -9,8 +9,8 @@ function Home() {
     window.scrollTo(0, 0);
   });
   return (
-    <div className='bg-white h-screen w-screen flex justify-center items-center'>
-      {/* <div className='bg-black text-[white] font-[Quicksand] home'>
+    <div>
+      <div className='bg-black text-[white] font-[Quicksand] home'>
         <Navbar />
         <section id="home">
           <Poster />
@@ -20,10 +20,9 @@ function Home() {
         </section>
         <section id="footer">
           <Footer />
-        </section> */}
-        <p>Site under maintenance. We will be back soon...</p>
+        </section>
       </div>
-    // </div>
+    </div>
   )
 }
 
