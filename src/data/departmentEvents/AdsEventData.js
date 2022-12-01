@@ -52,7 +52,7 @@ const AdsEventData = [
         event_id:500,
         name: 'Magnum',
         description: 'Group wise event Games : Valorant in collaboration with cse(Team size will be five )',
-        event_type: 'Competition',
+        event_type: 'Valorant',
         fee: 250,
         student1: 'Vaishak P',
         s1_phone: 7994665201,
