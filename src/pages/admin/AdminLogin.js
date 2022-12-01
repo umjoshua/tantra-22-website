@@ -2,20 +2,26 @@ import { useState } from "react";
 import axios from "axios";
 import styles from "./styles.module.css";
 import { useNavigate } from "react-router-dom";
+import Backdrop from '@mui/material/Backdrop';
+import CircularProgress from '@mui/material/CircularProgress';
 
 const AdminLogin = () => {
 	const navigate = useNavigate();
 	const [data, setData] = useState({ username: "", password: "" });
 	const [warning, setWarning] = useState(false);
+	const [loading, setLoading] = useState(false);
 
 	const handleChange = ({ currentTarget: input }) => {
 		setData({ ...data, [input.name]: input.value });
 	};
 
+	const url = "https://cautious-waistcoat-mite.cyclic.app/login";
+
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "https://cautious-waistcoat-mite.cyclic.app/login";
+			setLoading(true);
+			setWarning(false);
 			const { data: res } = await axios.post(url, data);
 			localStorage.setItem("token", res.token);
 			navigate('/admin');
@@ -27,6 +33,7 @@ const AdminLogin = () => {
 				error.response.status <= 500
 			) {
 				setWarning(true);
+				setLoading(false);
 			}
 		}
 	};
@@ -59,6 +66,9 @@ const AdminLogin = () => {
 						<button type="submit" className={styles.green_btn}>
 							Sign In
 						</button>
+						<Backdrop sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }} open={loading}>
+							<CircularProgress color="inherit" />
+						</Backdrop>
 					</form>
 				</div>
 			</div>
