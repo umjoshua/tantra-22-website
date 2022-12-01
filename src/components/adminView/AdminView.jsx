@@ -44,7 +44,7 @@ function AdminView() {
 
 
 
-    let baseUrl = "http://localhost:5000/admin/api/"
+    let baseUrl = "https://smiling-wetsuit-toad.cyclic.app/admin/api/";
     let url = baseUrl + "responses";
     console.log(url);
     let branch = "";
