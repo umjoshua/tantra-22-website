@@ -309,7 +309,7 @@ const EeeEventData = [
         name:'Let\'s get wet',
         description:'2 robots, a land bot and a water bot',
         event_type: 'Game',
-        fee: 'FREE',
+        fee: 50,
         student1: 'Muhammad Hannan Fazal',
         s1_phone: 7902900738,
         student2: '',
