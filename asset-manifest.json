@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce6ae0e6.css",
-    "main.js": "/static/js/main.481910c0.js",
+    "main.css": "/static/css/main.9c7a4c7a.css",
+    "main.js": "/static/js/main.a4cc0342.js",
     "static/media/poster.png": "/static/media/poster.ea3646fae71a1f331443.png",
     "static/media/Thanthra.png": "/static/media/Thanthra.d6a0a9dd432a44436b25.png",
     "static/media/humanities.jpg": "/static/media/humanities.ddbc9e318615d213cb39.jpg",
@@ -16,11 +16,11 @@
     "static/media/instrumentation.jpg": "/static/media/instrumentation.893b9a7a63e869cdedb9.jpg",
     "index.html": "/index.html",
     "static/media/DropDownIcon.svg": "/static/media/DropDownIcon.8cff6801c3eb9badfba5.svg",
-    "main.ce6ae0e6.css.map": "/static/css/main.ce6ae0e6.css.map",
-    "main.481910c0.js.map": "/static/js/main.481910c0.js.map"
+    "main.9c7a4c7a.css.map": "/static/css/main.9c7a4c7a.css.map",
+    "main.a4cc0342.js.map": "/static/js/main.a4cc0342.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce6ae0e6.css",
-    "static/js/main.481910c0.js"
+    "static/css/main.9c7a4c7a.css",
+    "static/js/main.a4cc0342.js"
   ]
 }
