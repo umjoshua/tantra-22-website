@@ -92,7 +92,7 @@ const EceEventData = [
         staff: 'Ann Mathews',
         prize: false,
         dept:'ece',
-        reg: true,
+        reg: false,
         group: false,
     },
     {
@@ -108,7 +108,7 @@ const EceEventData = [
         staff: 'Ann Mathews',
         prize: true,
         dept:'ece',
-        reg: true,
+        reg: false,
         group: false,
     },
     {
@@ -236,7 +236,7 @@ const EceEventData = [
         staff: 'Ms.Anusha Chacko',
         prize: true,
         dept:'ece',
-        reg: true,
+        reg: false,
         group: false,
     },
     {

@@ -76,7 +76,7 @@ const CseEventData = [
         staff: 'Mr Lithin',
         prize: false,
         dept: 'cse',
-        reg: false,
+        reg: true,
         group: true,
     },
     {
