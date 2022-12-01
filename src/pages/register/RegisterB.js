@@ -7,6 +7,8 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import { Select } from './dropdown';
 import { useLocation, useNavigate } from 'react-router-dom';
 import AccountsData from '../../data/accountsData/AccountsData';
+import Backdrop from '@mui/material/Backdrop';
+import CircularProgress from '@mui/material/CircularProgress';
 
 import Axios from "axios";
 
@@ -15,11 +17,11 @@ const states = [
 ]
 
 const branches = [
-    'CSE', 'ME', 'AEI', 'ECE', 'ADS', 'CE','EEE', 'Other'
+    'CSE', 'ME', 'AEI', 'ECE', 'ADS', 'CE', 'EEE', 'Other'
 ]
 
 const sem = [
-    'S1', 'S3', 'S5', 'S7','NIL'
+    'S1', 'S3', 'S5', 'S7', 'NIL'
 ]
 
 function RegisterB() {
@@ -175,6 +177,9 @@ function RegisterB() {
                                                 <div className="inline-flex items-end">
                                                     <button className='submit mr-5' onClick={() => { navigate(-1) }}>Cancel</button>
                                                     <input type='submit' disabled={disable && !netwarning ? true : false} className='submit'></input>
+                                                    <Backdrop sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }} open={disable && !netwarning}>
+                                                        <CircularProgress color="inherit" />
+                                                    </Backdrop>
                                                 </div>
                                             </div>
                                         </div>

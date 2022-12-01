@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Axios from 'axios';
 import jwt_decode from "jwt-decode";
 import AdminNav from '../adminNav/AdminNav';
+import Backdrop from '@mui/material/Backdrop';
+import CircularProgress from '@mui/material/CircularProgress';
 
 function AdminView() {
 
@@ -175,7 +177,10 @@ function AdminView() {
                         to Login
                     </div>
                 </div> : <AdminNav branch={branch} />}
-            {regData != null && indexList.map((item, index) => <Table data={regData[item]} ind={item} key={index} />)}
+            {regData != null ? indexList.map((item, index) => <Table data={regData[item]} ind={item} key={index} />)
+                : <Backdrop sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }} open={true}>
+                    <CircularProgress color="inherit" />
+                </Backdrop>}
         </div>
     )
 }
