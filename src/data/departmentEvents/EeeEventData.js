@@ -231,7 +231,7 @@ const EeeEventData = [
         event_type: 'Games',
         fee: 'FREE',
         student1: 'Ashlyn Wilson',
-        s1_phone: 9076058015,
+        s1_phone: 9778229422,
         student2: 'Aishwarya',
         s2_phone: 9207698610,
         staff: 'Athira M thomas',
