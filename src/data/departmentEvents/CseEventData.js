@@ -100,7 +100,7 @@ const CseEventData = [
         name: 'Cognitare',
         description: 'Participants test what they know by answering questions on one or more technical topics.',
         event_type: 'Quiz',
-        fee: 20,
+        fee: 'FREE',
         student1: 'Meenakshi Surendhran',
         s1_phone: 7994895402,
         student2: 'Prithwin Ratnan',
