@@ -304,6 +304,22 @@ const EeeEventData = [
         reg : false,
         group: false,
     },
+    {
+        event_id: 800,
+        name:'Let\'s get wet',
+        description:'2 robots, a land bot and a water bot',
+        event_type: 'Game',
+        fee: 'FREE',
+        student1: 'Muhammad Hannan Fazal',
+        s1_phone: 7902900738,
+        student2: '',
+        s2_phone: '',
+        staff: 'Shelma George',
+        prize: true,
+        dept: 'eee',
+        reg : true,
+        group: true,
+    },
 ];
 
 export default EeeEventData;
