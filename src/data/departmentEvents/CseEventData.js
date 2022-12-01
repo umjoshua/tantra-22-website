@@ -19,7 +19,7 @@ const CseEventData = [
         event_id: 30,
         name: 'Magnum',
         description: 'Participant battle out in the LAN event. Games used are Valorant for pc.',
-        event_type: 'Games',
+        event_type: 'Valorant ',
         fee: 250,
         student1: 'Amal Binoy',
         s1_phone: 9744970409,
@@ -188,8 +188,8 @@ const CseEventData = [
         staff: 'Divya B',
         prize: false,
         dept: 'cse',
-        reg: false,
-        group: true,
+        reg: true,
+        group: false,
     },
 ];
 
