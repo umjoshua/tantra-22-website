@@ -85,7 +85,7 @@ function AdminView() {
             break;
         case "meadmin":
             url = baseUrl + "meresponses";
-            branch="ME";
+            branch = "ME";
             break;
         case "commadmin":
             url = baseUrl + "commresponses"
@@ -98,17 +98,20 @@ function AdminView() {
         console.log(data);
         return (
             <div className="flex flex-col">
-                <div className='mt-5 bg-white mx-8 p-5 justify-between flex flex-row'>
+                <div className='mt-5 bg-white mx-8 pt-5 justify-between flex flex-row'>
                     <p className='font-extrabold '>{data[0].event_name}</p>
                     {/* <button className='bg-gray-400 px-2 rounded cursor-pointer' disabled>Export Data</button> */}
                 </div>
+                <div className='bg-white mx-8'>
+                    <p className='font-extrabold '>Total Registrations: {data.length}</p>
+                </div>
                 <div className="overflow-x-auto">
                     <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8">
-                        <div className="overflow-hidden">
-                            <table className="min-w-full">
+                        <div className="overflow-hidden p-1">
+                            <table className="min-w-full ">
                                 <TableHeader />
                                 <tbody>
-                                    {regData[ind].map((item, index) => <TableData props={item} key={index} />)}
+                                    {regData[ind].map((item, index) => <TableData props={item} key={index} ind={index} />)}
                                 </tbody>
                             </table>
                         </div>
@@ -122,6 +125,7 @@ function AdminView() {
         return (
             <thead className="border-b bg-white">
                 <tr>
+                    <th>Sl.No</th>
                     <th className='py-5 '>Name</th>
                     <th>College</th>
                     <th>Branch</th>
@@ -134,9 +138,10 @@ function AdminView() {
         )
     }
 
-    const TableData = ({ props }) => {
+    const TableData = ({ props, ind }) => {
         return (
-            <tr className="bg-white border-b">
+            <tr className="bg-white border-b text-center">
+                <td >{ind + 1}</td>
                 <td className="px-6 py-4 whitespace-nowrap ">{props.name}</td>
                 <td>{props.college}</td>
                 <td>{props.branch}</td>
