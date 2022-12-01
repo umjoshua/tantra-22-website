@@ -83,6 +83,10 @@ function AdminView() {
             url = baseUrl + "ashresponses";
             branch = "ASH"
             break;
+        case "meadmin":
+            url = baseUrl+"meresponses";
+            branch="ME";
+            break;
         case "commadmin":
             url = baseUrl + "commresponses"
             branch = "Common Events"
