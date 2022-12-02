@@ -180,7 +180,7 @@ const CseEventData = [
         time: ''
     },
     {
-        event_id: 812,
+        event_id: 813,
         name: 'Crash raze',
         description: 'Get a chance to play a 3D racing game during its development stage. Attain a high score to win the prize pool.',
         event_type: 'Game',

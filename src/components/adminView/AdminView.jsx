@@ -23,6 +23,7 @@ function AdminView() {
                 if (error.response) {
                     console.log(error.response.status);
                     setStatusAuth(false);
+                    localStorage.removeItem("token");
                 }
             })
             const grouped = groupBy(response.data, 'event_id');
