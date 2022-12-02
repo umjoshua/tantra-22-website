@@ -4,12 +4,22 @@
     text-align: center;
     padding: 4rem 0 2rem 0;
 }
-.event_cards{
+
+.event_cards {
     width: 100%;
 }
 
 .event_container {
     max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+}
+
+.events_container {
+    max-width: min-content;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -56,11 +66,18 @@
 .event_btns .btn {
     background-color: #ff0066;
     padding: 0.5rem 1rem;
-    border-radius: 10px;    
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 740px) {
     .event_container {
+        max-width: 90%;
+        margin: auto;
+
+        grid-template-columns: 1fr;
+    }
+
+    .events_container {
         max-width: 90%;
         margin: auto;
 
