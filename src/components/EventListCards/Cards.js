@@ -12,7 +12,7 @@ function Cards(props) {
         <div className="mech_content">
           <h3>{props.data.name}</h3>
           <h1>{props.data.event_type}</h1>
-          <h1>Reg Fee : {props.data.fee}</h1>
+          <h1>{props.data.fee !== '' ? `Reg Fee: ${props.data.fee}` : '‎ '}</h1>
           <div className='mech_button m-auto'>
             <a><ViewDetails data={eventData} /></a>
             {
