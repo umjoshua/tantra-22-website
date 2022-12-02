@@ -180,6 +180,24 @@ const CseEventData = [
         time: ''
     },
     {
+        event_id: 812,
+        name: 'Crash raze',
+        description: 'Get a chance to play a 3D racing game during its development stage. Attain a high score to win the prize pool.',
+        event_type: 'Game',
+        fee: '',
+        student1: 'Akash Ajith',
+        s1_phone: 8075497716,
+        student2: 'Nihal Olachery',
+        s2_phone: 7907829043,
+        staff: 'Ms.Namitha P',
+        prize: true,
+        dept: 'cse',
+        reg: true,
+        group: false,
+        venue: ' ',
+        time: 'Full day'
+    },  
+    {
         event_id: 801,
         name: 'CyberRelay',
         description: 'Cyber security workshop',
@@ -200,7 +218,7 @@ const CseEventData = [
     {
         event_id: 810,
         name: 'Aarr Avide!!',
-        description: '',
+        description: 'Aarr Avide is a fun game in where the contestants has to identify the person behind the tiles by flipping it within a limited chances.',
         event_type: 'Game',
         fee: '',
         student1: 'Vaishnav Krishna',
@@ -218,7 +236,7 @@ const CseEventData = [
     {
         event_id: 811,
         name: 'Enne Sherikum onnuu nokikee!!!',
-        description: '',
+        description: 'Enne Sherikum onnuu nokikee is a fun game where images of two famous personalities are merged and contestants need to identify them.',
         event_type: 'Game',
         fee: '',
         student1: 'Sona Saji',
@@ -236,7 +254,7 @@ const CseEventData = [
     {
         event_id: 812,
         name: 'TIC-TAC-TOE',
-        description: '',
+        description: 'TIC-TAC-TOE is a fun game where two players compete, The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal is the winner.',
         event_type: 'Game',
         fee: '',
         student1: 'Augustine Felix Joshy',
