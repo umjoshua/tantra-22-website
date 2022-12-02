@@ -82,7 +82,7 @@ const EceEventData = [
     {
         event_id:43,
         name: 'Interfuse',
-        description: 'Skills in hand soldering complex printed board assemblies',
+        description: 'Skills in hand soldering complex printed board assemblies. Spot Admission Is Available',
         event_type:'Competition' ,
         fee:'FREE',
         student1: 'Anusree KV',
@@ -98,7 +98,7 @@ const EceEventData = [
     {
         event_id:44,
         name: 'Logic Circuit Design',
-        description: 'Design a logic circuit for the required function ',
+        description: 'Design a logic circuit for the required function. Spot Admission Is Available',
         event_type:'Competition' ,
         fee:'FREE',
         student1: 'Vishnupriya',
@@ -162,7 +162,7 @@ const EceEventData = [
     {
         event_id:48,
         name: 'Quiz\' O Maniac',
-        description: 'Quiz based on elecronics and communication',
+        description: 'Quiz based on elecronics and communication. Spot Admission Is Available',
         event_type:'Competition' ,
         fee:'FREE',
         student1: 'Ruby Sharin',
@@ -210,7 +210,7 @@ const EceEventData = [
     {
         event_id:51,
         name: 'Crossword ',
-        description: 'Solving clues related to electronics and communication ',
+        description: 'Solving clues related to electronics and communication. Spot Admission Is Available',
         event_type:'Games' ,
         fee:'FREE',
         student1: 'Saishna Shamej',
@@ -226,7 +226,7 @@ const EceEventData = [
     {
         event_id:52,
         name: 'Blank coding',
-        description: 'Typing the code by desktop screen by ',
+        description: 'Typing the code by desktop screen by. Spot Admission Is Available',
         event_type:'Games' ,
         fee:'FREE',
         student1: 'Sreerag ',
