@@ -7,17 +7,21 @@ const ViewDetails = ({ data }) => {
       {
         close => (<div>
           <div className="popup overflow-scroll">
-            <div className="popup_header">
+            <div className="popup_header ">
               <h1 className="popup_title">{data.name}</h1>
               <h1 className="popupclose_btn" onClick={close}>&times;</h1>
             </div>
-            <div className="details">
+            <div className="details ">
               <div className='font-bold'>Description :</div>
               <p>{data.description}</p>
               <div className='font-bold'>Prize :</div>
               <p>{data.prize ? 'Yes' : 'No'}</p>
               <div className='font-bold'>Event type :</div>
               <p>{data.group ? 'Group' : 'Individual'}</p>
+              <div className='font-bold'>Venue :</div>
+              <p>{data.venue}</p>
+              <div className='font-bold'>Time :</div>
+              <p>{data.time}</p>
               <div className='font-bold'>Student Coordinators :</div>
               <p>{data.student1} , {data.student2}</p>
               <div className='font-bold'>Contact</div>
