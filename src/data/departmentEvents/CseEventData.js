@@ -202,7 +202,7 @@ const CseEventData = [
         name: 'CyberRelay',
         description: 'Cyber security workshop',
         event_type: 'Workshop',
-        fee: 200,
+        fee: 'FREE',
         student1: 'Nandana',
         s1_phone: 9778316049,
         student2: 'Jewel',
