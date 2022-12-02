@@ -20,7 +20,7 @@ const EceEventData = [
         name: 'VR & Gaming By PACELAB',
         description: 'Gaming and Entertainment',
         event_type:'Competition' ,
-        fee:150,
+        fee:50,
         student1: 'Malavika Ajith',
         s1_phone: 9061948069,
         student2: 'Niswarth A V',
