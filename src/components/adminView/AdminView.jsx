@@ -13,6 +13,7 @@ function AdminView() {
     };
 
     useEffect(() => {
+        setloading(true);
         const fetchData = async () => {
             const response = await Axios.get(url, {
                 headers: {
@@ -26,6 +27,7 @@ function AdminView() {
             })
             const grouped = groupBy(response.data, 'event_id');
             setRegData(grouped);
+            setloading(false);
             setindexList(Object.keys(grouped));
         };
         fetchData();
@@ -34,6 +36,7 @@ function AdminView() {
     const [regData, setRegData] = useState(null);
     const [indexList, setindexList] = useState([]);
     const [statusAuth, setStatusAuth] = useState(true);
+    const [loading, setloading] = useState(false);
 
     const token = localStorage.getItem("token");
     let userRole = ""
@@ -178,7 +181,7 @@ function AdminView() {
                     </div>
                 </div> : <AdminNav branch={branch} />}
             {regData != null ? indexList.map((item, index) => <Table data={regData[item]} ind={item} key={index} />)
-                : <Backdrop sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }} open={true}>
+                : <Backdrop sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }} open={loading}>
                     <CircularProgress color="inherit" />
                 </Backdrop>}
         </div>
