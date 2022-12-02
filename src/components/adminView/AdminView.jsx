@@ -24,6 +24,7 @@ function AdminView() {
                     console.log(error.response.status);
                     setStatusAuth(false);
                     localStorage.removeItem("token");
+                    window.location.reload();
                 }
             })
             const grouped = groupBy(response.data, 'event_id');
