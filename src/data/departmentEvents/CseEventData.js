@@ -66,7 +66,7 @@ const CseEventData = [
         staff: 'Mr Sibi',
         prize: true,
         dept: 'cse',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'PG Lab,CSE BLOCK,2nd Floor',
         time: '10:00-11:30'
@@ -120,7 +120,7 @@ const CseEventData = [
         staff: 'Ms. Suhada',
         prize: true,
         dept: 'cse',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Network Lab,CSE BLOCK,2nd Floor	',
         time: '	1:30-2:30'
@@ -210,7 +210,7 @@ const CseEventData = [
         staff: 'Divya B',
         prize: false,
         dept: 'cse',
-        reg: true,
+        reg: false,
         group: false,
         venue: '',
         time: ''
