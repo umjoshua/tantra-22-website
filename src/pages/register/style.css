@@ -28,3 +28,9 @@ input[type=submit] {
     border-radius: 3px;
     cursor: pointer;
 }
+
+.btnbg {
+    background: linear-gradient(130deg,
+        #6f6df4,
+        #4c46f5);
+}

@@ -24,7 +24,14 @@ const sem = [
     'S1', 'S3', 'S5', 'S7', 'NIL'
 ]
 
+
 function RegisterB() {
+
+    const helleKopfeUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfKq02yfwqNIqYZVnVWUU4fh1XTHA945N2Kx2QPcQ-BM1WgkA/viewform'
+    const openInNewTab = url => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+    };
+
     // const url = "https://tantra.herokuapp.com/register"
     const url = "https://cautious-waistcoat-mite.cyclic.app/register";
     const navigate = useNavigate();
@@ -126,6 +133,16 @@ function RegisterB() {
                                                 <label for="city">Branch/Class *</label>
                                                 <Select options={branches} st={branch} setSt={setBranch} />
                                             </div>
+                                            {
+                                                event_id === 80 ? <div className="md:col-span-5">
+                                                    <label for="address">Please upload your document as your team name in PDF *</label>
+                                                    <button className='btnbg h-10 border mt-1 rounded px-4 w-full text-white' onClick={() => {
+                                                        openInNewTab(helleKopfeUrl);
+                                                    }}>Click to upload</button>
+                                                </div> : null
+                                            }
+
+
                                             <div className="md:col-span-3">
                                                 <label for="address">Semester *</label>
                                                 <Select options={sem} st={semester} setSt={setSemester} />
