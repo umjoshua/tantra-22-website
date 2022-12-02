@@ -48,7 +48,7 @@ const EceEventData = [
         staff: 'Mr.Adarsh K S',
         prize: false,
         dept:'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Advanced Communication Lab, 3rd Floor, ECE Block',
         time: '9:30AM to 4:10PM'
