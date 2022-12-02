@@ -121,7 +121,7 @@ const AeiEventData = [
         staff: 'Ms. Reshma K V',
         prize: true,
         dept:'aei',
-        reg: true,
+        reg: false,
         group: false,
         venue:'S7/S8 AEI CLASS ROOM,ADMIN BLOCK,THIRD FLOOR',
         time:'11.00 am to 1.00 pm'
@@ -139,7 +139,7 @@ const AeiEventData = [
         staff: 'Ms. Reshma K V',
         prize: true,
         dept:'aei',
-        reg: true,
+        reg: false,
         group: true,
         venue:'RESERCH LAB,ADMIN BLOCK,THIRD FLOOR',
         time:'1.30 pm -3.30 pm'
