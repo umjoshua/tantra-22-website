@@ -14,6 +14,8 @@ const CeEventData = [
         dept:'ce',
         reg: true,
         group: false,
+        venue: 'S7 CE B,MAIN BLOCK,GROUND FLOOR',
+        time: '10 AM - 11 AM'
     },
     {
         event_id:18,
@@ -30,6 +32,8 @@ const CeEventData = [
         dept:'ce',
         reg: true,
         group: true,
+        venue: 'S5 CE A,MAIN BLOCK,GROUND FLOOR	',
+        time:'11 AM - 1 PM'
     },
     {
         event_id:19,
@@ -46,6 +50,8 @@ const CeEventData = [
         dept:'ce',
         reg: true,
         group: true,
+        venue: 'S7 CE A,MAIN BLOCK,GROUND FLOOR',
+        time:'11 AM - 12 PM'
     },
     {
         event_id:19,
@@ -62,6 +68,8 @@ const CeEventData = [
         dept:'ce',
         reg: true,
         group: false,
+        venue: 'S7 CE A,GROUND FLOOR',
+        time:'1 PM - 2 PM'
     },
     {
         event_id:20,
@@ -78,6 +86,8 @@ const CeEventData = [
         dept:'ce',
         reg: false,
         group: true,
+        venue: 'AUDITORIUM,ENTRANCE GATE',
+        time:''
     },
     {
         event_id:21,
@@ -94,6 +104,8 @@ const CeEventData = [
         dept:'ce',
         reg: false,
         group: true,
+        venue: 'AUDITORIUM,PODIUM',
+        time:''
     },
     {
         event_id:22,
@@ -110,6 +122,8 @@ const CeEventData = [
         dept:'ce',
         reg: false,
         group: true,
+        venue: 'AUDITORIUM,NEAR PODIUM',
+        time:''
     },
     {
         event_id:23,
@@ -126,6 +140,8 @@ const CeEventData = [
         dept:'ce',
         reg: true,
         group: true,
+        venue: 'S5 CE B	,MAIN BLOCK,GROUND FLOOR	',
+        time:'10 AM - 11 AM'
     },
     {
         event_id:24,
@@ -142,6 +158,8 @@ const CeEventData = [
         dept:'ce',
         reg: true,
         group: false,
+        venue: 'CAD LAB,EC BLOCK',
+        time:'1 PM - 2 PM'
     },
     {
         event_id:25,
@@ -158,6 +176,8 @@ const CeEventData = [
         dept:'ce',
         reg: true,
         group: false,
+        venue: 'S5 CE A,MAIN BLOCK,GROUND FLOOR',
+        time:'1.30 PM- 2.00 PM'
     },
     {
         event_id:26,
@@ -174,6 +194,8 @@ const CeEventData = [
         dept:'ce',
         reg: true,
         group: false,
+        venue: '',
+        time:''
     },
     {
         event_id:27,
@@ -190,6 +212,8 @@ const CeEventData = [
         dept:'ce',
         reg: true,
         group: false,
+        venue: 'CAD LAB,EC BLOCK',
+        time:'2 PM - 3 PM'
     }
 
 ];

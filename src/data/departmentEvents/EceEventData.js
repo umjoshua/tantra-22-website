@@ -14,6 +14,8 @@ const EceEventData = [
         dept:'ece',
         reg: true,
         group: false,
+        venue: 'F5, ECE Block, 1st Floor',
+        time: ''
     },
     {
         event_id:54,
@@ -30,6 +32,8 @@ const EceEventData = [
         dept:'ece',
         reg: true,
         group: false,
+        venue: 'S7 ECE,2nd Floor, ECE Block',
+        time: '9:30AM to 4:10PM'
     },
     {
         event_id:55,
@@ -46,6 +50,8 @@ const EceEventData = [
         dept:'ece',
         reg: true,
         group: false,
+        venue: 'Advanced Communication Lab, 3rd Floor, ECE Block',
+        time: '9:30AM to 4:10PM'
     },
     {
         event_id:41,
@@ -62,6 +68,8 @@ const EceEventData = [
         dept:'ece',
         reg: true,
         group: false,
+        venue: 'S5 ECE,S3 ECE, 2nd Floor, ECE Block',
+        time: '9:30AM to 4:10PM'
     },
     {
         event_id:42,
@@ -78,6 +86,8 @@ const EceEventData = [
         dept:'ece',
         reg: true,
         group: true,
+        venue: 'Analog Electronics Lab, 2nd Floor, ECE Block',
+        time: '9:30AM to 4:10PM'
     },
     {
         event_id:43,
@@ -94,6 +104,8 @@ const EceEventData = [
         dept:'ece',
         reg: false,
         group: false,
+        venue: 'Communicaion Engineering Lab,3rd Floor, ECE Block',
+        time: '9:30AM to 11AM'
     },
     {
         event_id:44,
@@ -110,6 +122,8 @@ const EceEventData = [
         dept:'ece',
         reg: false,
         group: false,
+        venue: 'Logic Circuit Design Lab, 2nd Floor, ECE Block',
+        time: '9:30AM to 11AM'
     },
     {
         event_id:45,
@@ -126,6 +140,8 @@ const EceEventData = [
         dept:'ece',
         reg: true,
         group: false,
+        venue: 'Intel Galileo Lab, 3rd Floor, ECE Block',
+        time: '9:30AM to 12PM'
     },
     {
         event_id:46,
@@ -142,6 +158,8 @@ const EceEventData = [
         dept:'ece',
         reg: true,
         group: false,
+        venue: 'Communication Engineering Lab, 3rd Floor, ECE Block',
+        time: '11:30AM to 12:30PM'
     },
     {
         event_id:47,
@@ -158,6 +176,8 @@ const EceEventData = [
         dept:'ece',
         reg: true,
         group: false,
+        venue: 'Intel Galileo Lab, 3rd Floor, ECE Block',
+        time: '11AM to 2PM'
     },
     {
         event_id:48,
@@ -174,6 +194,8 @@ const EceEventData = [
         dept:'ece',
         reg: false,
         group: false,
+        venue: 'ECE Department Library, 2nd Floor, ECE Block',
+        time: '10AM to 12PM'
     },
     {
         event_id:49,
@@ -190,6 +212,8 @@ const EceEventData = [
         dept:'ece',
         reg: true,
         group: false,
+        venue: 'Research Lab, 3rd Floor, ECE Block',
+        time: '10:30AM to 4:10PM'
     },
     {
         event_id:50,
@@ -206,6 +230,8 @@ const EceEventData = [
         dept:'ece',
         reg: true,
         group: false,
+        venue: 'Research Lab, 3rd Floor, ECE Block',
+        time: '9:30AM to 10:30AM'
     },
     {
         event_id:51,
@@ -222,6 +248,8 @@ const EceEventData = [
         dept:'ece',
         reg: false,
         group: false,
+        venue: 'Tutorial Lab(UG), 3rd Floor, ECE Block',
+        time: '9:30AM to 10:30AM'
     },
     {
         event_id:52,
@@ -238,6 +266,8 @@ const EceEventData = [
         dept:'ece',
         reg: false,
         group: false,
+        venue: 'Research Lab, 3rd Floor, ECE Block',
+        time: '11AM to 1PM'
     },
     {
         event_id:53,
@@ -254,6 +284,8 @@ const EceEventData = [
         dept:'ece',
         reg: true,
         group: false,
+        venue: 'Tutorial Room(UG), 3rd Floor, ECE Block',
+        time: '11AM to 4:10PM'
     },
 ];
 

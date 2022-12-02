@@ -14,6 +14,8 @@ const CseEventData = [
         dept: 'cse',
         reg: true,
         group: true,
+        venue: 'PG Lab/Network Lab,CSE BLOCK,2nd Floor',
+        time: '9:30-11:30'
     },
     {
         event_id: 30,
@@ -30,6 +32,8 @@ const CseEventData = [
         dept: 'cse',
         reg: true,
         group: true,
+        venue: 'Software Lab,CSE BLOCK,1st Floor',
+        time: '	11:30-3:00'
     },
     {
         event_id: 31,
@@ -46,6 +50,8 @@ const CseEventData = [
         dept: 'cse',
         reg: true,
         group: false,
+        venue: 'ACRC,CSE BLOCK,2nd Floor',
+        time: '11:30-12:00'
     },
     {
         event_id: 32,
@@ -62,6 +68,8 @@ const CseEventData = [
         dept: 'cse',
         reg: true,
         group: true,
+        venue: 'PG Lab,CSE BLOCK,2nd Floor',
+        time: '10:00-11:30'
     },
     {
         event_id: 33,
@@ -78,6 +86,8 @@ const CseEventData = [
         dept: 'cse',
         reg: true,
         group: true,
+        venue: 'S5 CSE-A class,CSE BLOCK,2nd Floor',
+        time: '	9:30-3:30'
     },
     {
         event_id: 34,
@@ -94,6 +104,8 @@ const CseEventData = [
         dept: 'cse',
         reg: true,
         group: true,
+        venue: 'Network Lab,CSE BLOCK,2nd Floor',
+        time: '	10:00-11:30'
     },
     {
         event_id: 35,
@@ -110,6 +122,8 @@ const CseEventData = [
         dept: 'cse',
         reg: true,
         group: false,
+        venue: 'Network Lab,CSE BLOCK,2nd Floor	',
+        time: '	1:30-2:30'
     },
     {
         event_id: 36,
@@ -126,6 +140,8 @@ const CseEventData = [
         dept: 'cse',
         reg: false,
         group: false,
+        venue: 'S5 CSE-A class,CSE BLOCK,2nd Floor',
+        time: '	9:30-3:30'
     },
     {
         event_id: 37,
@@ -142,22 +158,8 @@ const CseEventData = [
         dept: 'cse',
         reg: true,
         group: false,
-    },
-    {
-        event_id: 38,
-        name: 'Rage Out',
-        description: 'Games competition for android phones',
-        event_type: 'Clash of Clans',
-        fee: 250,
-        student1: 'Vaishanv Krishna',
-        s1_phone: 7736966011,
-        student2: 'Precious PP',
-        s2_phone: 9946302636,
-        staff: 'Ms. Sreelakshmi',
-        prize: true,
-        dept: 'cse',
-        reg: true,
-        group: true,
+        venue: 'Interactive Lab,CSE BLOCK, 2nd Floor',
+        time: '2:00-4:00'
     },
     {
         event_id: 39,
@@ -174,6 +176,8 @@ const CseEventData = [
         dept: 'cse',
         reg: false,
         group: true,
+        venue: '',
+        time: ''
     },
     {
         event_id: 801,
@@ -190,7 +194,64 @@ const CseEventData = [
         dept: 'cse',
         reg: true,
         group: false,
+        venue: '',
+        time: ''
     },
+    {
+        event_id: 810,
+        name: 'Aarr Avide!!',
+        description: '',
+        event_type: 'Workshop',
+        fee: 5,
+        student1: 'Vaishnav Krishna',
+        s1_phone: 7736966011,
+        student2: 'Precious PP',
+        s2_phone: 9946302636,
+        staff: 'Ms. Sreelakshmi',
+        prize: true,
+        dept: 'cse',
+        reg: true,
+        group: false,
+        venue: 'S5 CSE B,CSE BLOCK, 2nd Floor',
+        time: 'Full day'
+    },
+    {
+        event_id: 811,
+        name: 'Enne Sherikum onnuu nokikee!!!',
+        description: '',
+        event_type: 'Workshop',
+        fee: 5,
+        student1: 'Sona Saji',
+        s1_phone: 9947102198,
+        student2: 'Emlin Elizabeth Biju',
+        s2_phone: 6238997223,
+        staff: 'Ms.Diya Rameshan',
+        prize: true,
+        dept: 'cse',
+        reg: true,
+        group: false,
+        venue: 'S5 CSE B,CSE BLOCK, 2nd Floor',
+        time: 'Full day'
+    },
+    {
+        event_id: 812,
+        name: 'TIC-TAC-TOE',
+        description: '',
+        event_type: 'Workshop',
+        fee: 5,
+        student1: 'Augustine Felix Joshy',
+        s1_phone: 7025237688,
+        student2: 'Ankith Baby',
+        s2_phone: 8086520743,
+        staff: 'Ms.Namitha P',
+        prize: true,
+        dept: 'cse',
+        reg: true,
+        group: false,
+        venue: 'S5 CSE C,CSE BLOCK, 2nd Floor',
+        time: 'Full day'
+    },    
+
 ];
 
 export default CseEventData;

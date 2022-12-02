@@ -14,6 +14,8 @@ const AdsEventData = [
         dept:'ads',
         reg: true,
         group: false,
+        venue: 'PG Lab, Admin Block, 1st floor',
+        time: '1.00 - 3.30'
     },
     {
         event_id:2,
@@ -30,6 +32,8 @@ const AdsEventData = [
         dept:'ads',
         reg: true,
         group: true,
+        venue: 'G3, Admin Block, 1st floor',
+        time: '11:30'
 
     },
     {
@@ -47,6 +51,8 @@ const AdsEventData = [
         dept:'ads',
         reg: true,
         group: true,
+        venue: 'PG Lab, Admin Block, 2nd floor',
+        time: '12:00 - 1:00'
     },
     {
         event_id:500,
@@ -63,6 +69,8 @@ const AdsEventData = [
         dept:'ads',
         reg: true,
         group: true,
+        venue: 'Software lab,admin block,1st floor',
+        time: '11.30-3.00'
     },
     {
         event_id:4,
@@ -79,6 +87,8 @@ const AdsEventData = [
         dept:'ads',
         reg: true,
         group: true,
+        venue: 'Network lab,admin block,2nd floor',
+        time: '11.30-1.30'
     },
 ];
 

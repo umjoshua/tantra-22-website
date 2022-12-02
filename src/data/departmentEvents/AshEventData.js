@@ -14,6 +14,8 @@ const AshEventData = [
         dept:'ash',
         reg: true,
         group: false,
+        venue:'CSD S3/s4,Main block,ground floor',
+        time:'9.00 AM'
     },
     {
         event_id:16,
@@ -30,6 +32,8 @@ const AshEventData = [
         dept:'ash',
         reg: true,
         group: false,
+        venue:'ADS S5/s6,Main block ground floor',
+        time:'9.00 AM'
     }
 ];
 

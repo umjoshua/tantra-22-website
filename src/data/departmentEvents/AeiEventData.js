@@ -13,7 +13,9 @@ const AeiEventData = [
         prize: true,
         dept:'aei',
         reg: true,
-        group: true
+        group: true,
+        venue:'INFRONT OF ROBOTICS LAB,ADMIN BLOCK,BASEMENT',
+        time:'9.30 AM-3.30PM'
     },
     {
         event_id:6,
@@ -29,7 +31,9 @@ const AeiEventData = [
         prize: false,
         dept:'aei',
         reg: false,
-        group: true
+        group: true,
+        venue:'INFRONT OF ROBOTICS LAB,ADMIN BLOCK,BASEMENT',
+        time:'9.30 AM-3.30PM'
     },
     {
         event_id:7,
@@ -45,7 +49,9 @@ const AeiEventData = [
         prize: true,
         dept:'aei',
         reg: true,
-        group: true
+        group: true,
+        venue:'INFRONT OF ROBOTICS LAB,ADMIN BLOCK,BASEMENT',
+        time:'10.00AM'
     },
 
     {
@@ -62,7 +68,9 @@ const AeiEventData = [
         prize: true,
         dept:'aei',
         reg: true,
-        group: true
+        group: true,
+        venue:'INFRONT OF ROBOTICS LAB,ADMIN BLOCK,BASEMENT',
+        time:'	10.00am - 1.00 am'
     },
     {
         event_id:9,
@@ -78,7 +86,9 @@ const AeiEventData = [
         prize: true,
         dept:'aei',
         reg: true,
-        group: true
+        group: true,
+        venue:'INFRONT OF ROBOTICS LAB,ADMIN BLOCK,BASEMENT',
+        time:'9.30am to 1.00 pm'
     },
     {
         event_id:10,
@@ -94,7 +104,9 @@ const AeiEventData = [
         prize: true,
         dept:'aei',
         reg: true,
-        group: false
+        group: false,
+        venue:'RESERCH LAB,ADMIN BLOCK,THIRD FLOOR',
+        time:'9.30 am- 1.00 pm'
     },
     {
         event_id:11,
@@ -110,7 +122,9 @@ const AeiEventData = [
         prize: true,
         dept:'aei',
         reg: true,
-        group: false
+        group: false,
+        venue:'S7/S8 AEI CLASS ROOM,ADMIN BLOCK,THIRD FLOOR',
+        time:'11.00 am to 1.00 pm'
     },
     {
         event_id:12,
@@ -126,7 +140,9 @@ const AeiEventData = [
         prize: true,
         dept:'aei',
         reg: true,
-        group: true
+        group: true,
+        venue:'RESERCH LAB,ADMIN BLOCK,THIRD FLOOR',
+        time:'1.30 pm -3.30 pm'
     },
     {
         event_id:13,
@@ -142,7 +158,9 @@ const AeiEventData = [
         prize: true,
         dept:'aei',
         reg: true,
-        group: true
+        group: true,
+        venue:'APPLIED ELECTRONICS LAB,ADMIN BLOCK,THIRD FLOOR',
+        time:'9.30 am to 11 am'
     },
     {
         event_id:14,
@@ -158,7 +176,9 @@ const AeiEventData = [
         prize: true,
         dept:'aei',
         reg: true,
-        group: true
+        group: true,
+        venue:'ADVANCED DIGITAL LAB,ADMIN BLOCK,THIRD FLOOR',
+        time:'2.00pm to 3.30pm'
     }
 ];
 

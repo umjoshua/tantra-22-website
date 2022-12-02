@@ -14,6 +14,8 @@ const CommonEventData = [
         dept:'comm',
         reg: true,
         group: false,
+        venue: '',
+        time: ''
     }
 ];
 
