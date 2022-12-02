@@ -11,23 +11,20 @@ const ViewDetails = ({ data }) => {
               <h1 className="popup_title">{data.name}</h1>
               <h1 className="popupclose_btn" onClick={close}>&times;</h1>
             </div>
-            <div className="details ">
+            <div className="details">
               <div className='font-bold'>Description :</div>
-              <p>{data.description}</p>
-              <div className='font-bold'>Prize :</div>
-              <p>{data.prize ? 'Yes' : 'No'}</p>
-              <div className='font-bold'>Event type :</div>
-              <p>{data.group ? 'Group' : 'Individual'}</p>
+              <div className='pl-2 '>{data.description}</div>
+              <div className='font-bold'>Prize : <span className='font-normal'>{data.prize ? 'Yes' : 'No'}</span></div>
+              <div className='font-bold'>Event type : <span className='font-normal'>{data.group ? 'Group' : 'Individual'}</span></div>
               <div className='font-bold'>Venue :</div>
-              <p>{data.venue}</p>
-              <div className='font-bold'>Time :</div>
-              <p>{data.time}</p>
+              <div className='pl-2'>{data.venue}</div>
+              <div className='font-bold'>Time : <span className='font-normal'>{data.time}</span></div>
               <div className='font-bold'>Student Coordinators :</div>
-              <p>{data.student1} , {data.student2}</p>
+              <div className='pl-2'>{data.student1} , {data.student2}</div>
               <div className='font-bold'>Contact</div>
-              <p ><a className='text-blue-500' href={`tel://${data.s1_phone}`}>{data.s1_phone}</a> , <a className='text-blue-500' href={`tel://${data.s2_phone}`}>{data.s2_phone}</a></p>
+              <div className='pl-2' ><a className='text-blue-500' href={`tel://${data.s1_phone}`}>{data.s1_phone}</a> , <a className='text-blue-500' href={`tel://${data.s2_phone}`}>{data.s2_phone}</a></div>
               <div className='font-bold'>Staff Coordinators :</div>
-              <p>{data.staff}</p>
+              <div className='pl=2'>{data.staff}</div>
             </div>
           </div>
         </div >)

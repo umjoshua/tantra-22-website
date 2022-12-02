@@ -212,7 +212,7 @@ const CseEventData = [
         dept: 'cse',
         reg: true,
         group: false,
-        venue: 'S5 CSE B,CSE BLOCK, 2nd Floor',
+        venue: 'S5 CSE C,CSE BLOCK, 2nd Floor',
         time: 'Full day'
     },
     {
@@ -230,7 +230,7 @@ const CseEventData = [
         dept: 'cse',
         reg: true,
         group: false,
-        venue: 'S5 CSE B,CSE BLOCK, 2nd Floor',
+        venue: 'S5 CSE C,CSE BLOCK, 2nd Floor',
         time: 'Full day'
     },
     {
@@ -248,7 +248,7 @@ const CseEventData = [
         dept: 'cse',
         reg: true,
         group: false,
-        venue: 'S5 CSE C,CSE BLOCK, 2nd Floor',
+        venue: 'S5 CSE B,CSE BLOCK, 2nd Floor',
         time: 'Full day'
     },    
 
