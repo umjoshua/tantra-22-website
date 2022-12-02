@@ -152,8 +152,8 @@ function RegisterB() {
                                                 </div>
                                             </div>
                                             <div className='md:col-span-5'>
-                                                {fee !== 'FREE' ?
-                                                    <div>
+                                                {fee !== 'FREE' && fee !== '' ?
+                                                    < div >
                                                         FEE: Rs. {fee}
                                                         <div className='text-red-900'>Transfer the amount to the account mentioned below: *</div>
                                                         <div>Name: {AccountsData[dept].name}</div>
@@ -189,8 +189,8 @@ function RegisterB() {
                         </div>
                     </div>
                 </div>
-            </form>
-        </div>
+            </form >
+        </div >
     )
 }
 
