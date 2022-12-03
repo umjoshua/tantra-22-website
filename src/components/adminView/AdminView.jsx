@@ -4,7 +4,7 @@ import jwt_decode from "jwt-decode";
 import AdminNav from '../adminNav/AdminNav';
 import Backdrop from '@mui/material/Backdrop';
 import CircularProgress from '@mui/material/CircularProgress';
-import { CSVLink, CSVDownload } from "react-csv";
+import { CSVLink } from "react-csv";
 
 function AdminView() {
 
@@ -104,8 +104,6 @@ function AdminView() {
 
     const Table = ({ data, ind }) => {
         const headers = [
-            // { label: "Reg ID", key: "_id" },
-            // { label: "Event ID", key: "event_id" },
             { label: "Event Name", key: "event_name" },
             { label: "Event Dept", key: "department" },
             { label: "Participant Name", key: "name" },
@@ -117,7 +115,6 @@ function AdminView() {
             { label: "Transaction ID", key: "tid" },
             { label: "State", key: "stateName" },
             { label: "district", key: "district" },
-            // { label: "_v", key: "_v" },
         ];
         const csvData = data;
         return (
@@ -129,10 +126,10 @@ function AdminView() {
                 <div className='bg-white mx-8'>
                     <p className='font-extrabold '>Total Registrations: {data.length}</p>
                 </div>
-                <div className="overflow-x-auto">
-                    <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8">
-                        <div className="overflow-hidden p-1">
-                            <table className="min-w-full ">
+                <div className="overflow-x-auto mx-8">
+                    <div className="py-2 inline-block min-w-full ">
+                        <div className="overflow-hidden">
+                            <table className="min-w-full">
                                 <TableHeader />
                                 <tbody>
                                     {regData[ind].map((item, index) => <TableData props={item} key={index} ind={index} />)}
