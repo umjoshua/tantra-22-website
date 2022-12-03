@@ -4,6 +4,7 @@ import jwt_decode from "jwt-decode";
 import AdminNav from '../adminNav/AdminNav';
 import Backdrop from '@mui/material/Backdrop';
 import CircularProgress from '@mui/material/CircularProgress';
+import { CSVLink, CSVDownload } from "react-csv";
 
 function AdminView() {
 
@@ -102,12 +103,28 @@ function AdminView() {
 
 
     const Table = ({ data, ind }) => {
-        console.log(data);
+        const headers = [
+            // { label: "Reg ID", key: "_id" },
+            // { label: "Event ID", key: "event_id" },
+            { label: "Event Name", key: "event_name" },
+            { label: "Event Dept", key: "department" },
+            { label: "Participant Name", key: "name" },
+            { label: "College", key: "college" },
+            { label: "Branch", key: "branch" },
+            { label: "Sem", key: "semester" },
+            { label: "Phone", key: "phno" },
+            { label: "email", key: "email" },
+            { label: "Transaction ID", key: "tid" },
+            { label: "State", key: "stateName" },
+            { label: "district", key: "district" },
+            // { label: "_v", key: "_v" },
+        ];
+        const csvData = data;
         return (
             <div className="flex flex-col">
                 <div className='mt-5 bg-white mx-8 pt-5 justify-between flex flex-row'>
                     <p className='font-extrabold '>{data[0].event_name}</p>
-                    {/* <button className='bg-gray-400 px-2 rounded cursor-pointer' disabled>Export Data</button> */}
+                    {<CSVLink data={csvData} headers={headers} filename={`${data[0].event_name}.xls`} className='bg-green-400 font-bold px-2 mx-2 rounded cursor-pointer text-white'><button  >Export Data</button></CSVLink>}
                 </div>
                 <div className='bg-white mx-8'>
                     <p className='font-extrabold '>Total Registrations: {data.length}</p>
