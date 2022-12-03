@@ -94,7 +94,7 @@ const CseEventData = [
         name: 'Trace',
         description: 'Teams must solve a series of questions, the answers of which will generate a link which will direct them to their next question.',
         event_type: 'Scavenger hunt',
-        fee: 60,
+        fee: '60 (Closed)',
         student1: 'Aswin K',
         s1_phone: 9544815670,
         student2: 'Irin Tressa',
@@ -102,7 +102,7 @@ const CseEventData = [
         staff: 'Ms. Sreedaya',
         prize: true,
         dept: 'cse',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'Network Lab,CSE BLOCK,2nd Floor',
         time: '	10:00-11:30'
