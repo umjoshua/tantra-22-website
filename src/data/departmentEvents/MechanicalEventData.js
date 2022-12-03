@@ -165,7 +165,7 @@ const MecahnicalEventData = [
         name: 'Chisel',
         description:'Finding the correct name of given tool',
         event_type: 'Competition',
-        fee: 50,
+        fee: 20,
         student1: 'Sayanth',
         s1_phone: 8848975667,
         student2: 'Dyuthin E',
