@@ -22,7 +22,7 @@ const AdsEventData = [
         name: 'Cognitare',
         description: 'Participants have to identify the given logo. Logos will be from computer science and engineering domain.(Team size will be two)',
         event_type: 'Competiton',
-        fee: 'FREE',
+        fee: 'FREE (Closed)',
         student1: 'Vishnupriya',
         s1_phone: 9495232973,
         student2: 'Deni Thomas',
@@ -30,7 +30,7 @@ const AdsEventData = [
         staff: 'Ms Anu Treesa George',
         prize: true,
         dept:'ads',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'G3, Admin Block, 1st floor',
         time: '11:30'
