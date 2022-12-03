@@ -41,7 +41,7 @@ const AdsEventData = [
         name: 'Mystic',
         description: 'Participants have to find solution for a given problem. Programming language will be either Python or C where they have to either turn off their screens.',
         event_type: 'Competition',
-        fee: 25,
+        fee: 'FREE',
         student1: 'Aarsha Anil',
         s1_phone: 9778177547,
         student2: 'Ridha Gafoor',
