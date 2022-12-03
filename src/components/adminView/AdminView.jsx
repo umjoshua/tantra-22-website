@@ -119,14 +119,14 @@ function AdminView() {
         const csvData = data;
         return (
             <div className="flex flex-col">
-                <div className='mt-5 bg-white mx-8 pt-5 justify-between flex flex-row'>
+                <div className='mt-5 bg-white mx-3 pt-5 justify-between flex flex-row'>
                     <p className='font-extrabold '>{data[0].event_name}</p>
                     {<CSVLink data={csvData} headers={headers} filename={`${data[0].event_name}`} className='bg-green-400 font-bold px-2 mx-2 rounded cursor-pointer text-white'><button  >Export Data</button></CSVLink>}
                 </div>
-                <div className='bg-white mx-8'>
+                <div className='bg-white mx-3'>
                     <p className='font-extrabold '>Total Registrations: {data.length}</p>
                 </div>
-                <div className="overflow-x-auto mx-8">
+                <div className="overflow-x-auto mx-3">
                     <div className="py-2 inline-block min-w-full ">
                         <div className="overflow-hidden">
                             <table className="min-w-full">
