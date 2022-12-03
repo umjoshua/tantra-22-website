@@ -40,7 +40,7 @@ const EceEventData = [
         name: 'GOLAZO',
         description: 'E- football mobile event behalf of FIFA world cup ',
         event_type:'Games' ,
-        fee:10,
+        fee:'10 (Closed)',
         student1: 'Sebastian George',
         s1_phone: 9539450318,
         student2: 'Nevin Saji',
@@ -48,7 +48,7 @@ const EceEventData = [
         staff: 'Ms.Anusha Chacko',
         prize: true,
         dept:'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Tutorial Room(UG), 3rd Floor, ECE Block',
         time: '11AM to 4:10PM'
