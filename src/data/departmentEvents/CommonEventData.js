@@ -2,7 +2,7 @@ const CommonEventData = [
     {
         event_id:28,
         name: 'Photography',
-        description: '',
+        description: 'Spot photography competition.',
         event_type: 'Competition',
         fee: 'FREE',
         student1: 'Shinil Shaju',
@@ -15,7 +15,7 @@ const CommonEventData = [
         reg: true,
         group: false,
         venue: '',
-        time: ''
+        time: '09:00 AM'
     }
 ];
 
