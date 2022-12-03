@@ -207,7 +207,7 @@ const CseEventData = [
         s1_phone: 9778316049,
         student2: 'Jewel',
         s2_phone: 9947807480,
-        staff: 'Divya B',
+        staff: 'Divya K',
         prize: false,
         dept: 'cse',
         reg: false,
