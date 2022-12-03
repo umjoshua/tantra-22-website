@@ -2,7 +2,7 @@ const AdsEventData = [
     {
         event_id:1,
         name: 'GNIDOC',
-        description: 'Participants have to find solution for a given problem. Programming language will be either Python or C. Particpants must have a hackerrank account',
+        description: 'Participants have to find solution for a given problem using any programming language. Particpants must have a hackerrank account',
         event_type: 'Competition',
         fee: 'FREE',
         student1: 'Austine S Manuel',
