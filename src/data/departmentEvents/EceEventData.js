@@ -36,6 +36,24 @@ const EceEventData = [
         time: '9:30AM to 4:10PM'
     },
     {
+        event_id:53,
+        name: 'GOLAZO',
+        description: 'E- football mobile event behalf of FIFA world cup ',
+        event_type:'Games' ,
+        fee:10,
+        student1: 'Sebastian George',
+        s1_phone: 9539450318,
+        student2: 'Nevin Saji',
+        s2_phone: 7306389257,
+        staff: 'Ms.Anusha Chacko',
+        prize: true,
+        dept:'ece',
+        reg: true,
+        group: false,
+        venue: 'Tutorial Room(UG), 3rd Floor, ECE Block',
+        time: '11AM to 4:10PM'
+    },
+    {
         event_id:55,
         name: 'Workshop',
         description: 'Hands on Training on Self Driving Car using AI with IIT Bombay Certificate',
@@ -130,7 +148,7 @@ const EceEventData = [
         name: 'Inventive Electronics',
         description: 'Introduce and perform presentations on new electronic products or components',
         event_type:'Competition' ,
-        fee:'FREE',
+        fee:'FREE (Closed)',
         student1: 'Ashik Benny',
         s1_phone: 8590549584,
         student2: 'Sidharth K',
@@ -138,7 +156,7 @@ const EceEventData = [
         staff: 'Ann Mathews',
         prize: true,
         dept:'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Intel Galileo Lab, 3rd Floor, ECE Block',
         time: '9:30AM to 12PM'
@@ -166,7 +184,7 @@ const EceEventData = [
         name: 'Avant-Garde',
         description: 'Present their innovative idea and innovations ',
         event_type:'Competition' ,
-        fee:'FREE',
+        fee:'FREE (Closed)',
         student1: 'Dona Chacko',
         s1_phone: 7306012152,
         student2: 'Nayana Saji',
@@ -174,7 +192,7 @@ const EceEventData = [
         staff: 'Ann Mathews',
         prize: false,
         dept:'ece',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'Intel Galileo Lab, 3rd Floor, ECE Block',
         time: '11AM to 2PM'
@@ -268,24 +286,6 @@ const EceEventData = [
         group: false,
         venue: 'Research Lab, 3rd Floor, ECE Block',
         time: '11AM to 1PM'
-    },
-    {
-        event_id:53,
-        name: 'GOLAZO',
-        description: 'E- football mobile event behalf of FIFA world cup ',
-        event_type:'Games' ,
-        fee:10,
-        student1: 'Sebastian George',
-        s1_phone: 9539450318,
-        student2: 'Nevin Saji',
-        s2_phone: 7306389257,
-        staff: 'Ms.Anusha Chacko',
-        prize: true,
-        dept:'ece',
-        reg: true,
-        group: false,
-        venue: 'Tutorial Room(UG), 3rd Floor, ECE Block',
-        time: '11AM to 4:10PM'
     },
 ];
 
