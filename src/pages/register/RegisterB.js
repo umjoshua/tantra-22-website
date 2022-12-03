@@ -17,7 +17,7 @@ const states = [
 ]
 
 const branches = [
-    'CSE', 'ME', 'AEI', 'ECE', 'ADS', 'CE', 'EEE', 'Other'
+    'CSE', 'ME', 'AEI', 'ECE', 'ADS', 'CE', 'EEE','CSD', 'Other'
 ]
 
 const sem = [
