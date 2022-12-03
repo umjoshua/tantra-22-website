@@ -12,7 +12,7 @@ const CeEventData = [
         staff: 'Hridya P, Rojin P',
         prize: true,
         dept:'ce',
-        reg: true,
+        reg: false,
         group: false,
         venue: 'S7 CE B,MAIN BLOCK,GROUND FLOOR',
         time: '10 AM - 11 AM'
@@ -30,7 +30,7 @@ const CeEventData = [
         staff: 'Saneesh K, Anuragi P',
         prize: false,
         dept:'ce',
-        reg: true,
+        reg: false,
         group: true,
         venue: 'S5 CE A,MAIN BLOCK,GROUND FLOOR	',
         time:'11 AM - 1 PM'
