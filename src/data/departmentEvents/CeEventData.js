@@ -56,7 +56,7 @@ const CeEventData = [
     {
         event_id:19,
         name: 'TESPLORA',
-        description: '(The participants had to send an abstract on any one of the specified topics and the selected people had to present detailed paper)',
+        description: 'The participants had to send an abstract on the topic \'Advancement in Civil Engineering\'.',
         event_type:'Competition' ,
         fee:'FREE',
         student1: 'Athira',
@@ -164,7 +164,7 @@ const CeEventData = [
     {
         event_id:25,
         name: 'ARTISTRY',
-        description: '(Fiddle the creative side in you and bring in the best posters under a topic)',
+        description: 'Fiddle the creative side in you and bring in the best posters under the topic \'Recent Innovation in Civil Engineering\'.',
         event_type:'Competition' ,
         fee:'FREE',
         student1: 'Hridhya',
