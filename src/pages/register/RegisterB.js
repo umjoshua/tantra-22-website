@@ -17,7 +17,7 @@ const states = [
 ]
 
 const branches = [
-    'CSE', 'ME', 'AEI', 'ECE', 'ADS', 'CE', 'EEE','CSD', 'Other'
+    'CSE', 'ME', 'AEI', 'ECE', 'ADS', 'CE', 'EEE', 'CSD', 'Other'
 ]
 
 const sem = [
@@ -169,7 +169,7 @@ function RegisterB() {
                                                 </div>
                                             </div>
                                             <div className='md:col-span-5'>
-                                                {fee !== 'FREE' && fee !== '' ?
+                                                {fee !== 'FREE' && fee !== '' && event_id !== 36 ?
                                                     < div >
                                                         FEE: Rs. {fee}
                                                         <div className='text-red-900'>Transfer the amount to the account mentioned below: *</div>

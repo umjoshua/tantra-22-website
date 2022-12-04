@@ -4,7 +4,7 @@ const CommonEventData = [
         name: 'Photography',
         description: 'Spot photography competition.',
         event_type: 'Competition',
-        fee: 'FREE',
+        fee: 'FREE (Closed)',
         student1: 'Shinil Shaju',
         s1_phone: 9526629723,
         student2: 'Roby KS',
@@ -12,7 +12,7 @@ const CommonEventData = [
         staff: 'N/A',
         prize: true,
         dept:'comm',
-        reg: true,
+        reg: false,
         group: false,
         venue: '',
         time: '09:00 AM'
