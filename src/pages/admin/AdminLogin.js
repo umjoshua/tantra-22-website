@@ -15,8 +15,8 @@ const AdminLogin = () => {
 		setData({ ...data, [input.name]: input.value });
 	};
 
-	// const url = "https://cautious-waistcoat-mite.cyclic.app/login";
-	const url = 'https://tantra-prod-test-s9utur.mo4.mogenius.io/login';
+	const url = "https://cautious-waistcoat-mite.cyclic.app/login";
+	// const url = 'https://tantra-prod-test-s9utur.mo4.mogenius.io/login';
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
