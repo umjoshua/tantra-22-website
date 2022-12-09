@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.50ccd9e2.css",
-    "main.js": "/static/js/main.49bd5cb2.js",
+    "main.js": "/static/js/main.8d281515.js",
     "static/media/poster.png": "/static/media/poster.ea3646fae71a1f331443.png",
     "static/media/Thanthra.png": "/static/media/Thanthra.d6a0a9dd432a44436b25.png",
     "static/media/humanities.jpg": "/static/media/humanities.ddbc9e318615d213cb39.jpg",
@@ -17,10 +17,10 @@
     "index.html": "/index.html",
     "static/media/DropDownIcon.svg": "/static/media/DropDownIcon.3ba1ddb4652873871680.svg",
     "main.50ccd9e2.css.map": "/static/css/main.50ccd9e2.css.map",
-    "main.49bd5cb2.js.map": "/static/js/main.49bd5cb2.js.map"
+    "main.8d281515.js.map": "/static/js/main.8d281515.js.map"
   },
   "entrypoints": [
     "static/css/main.50ccd9e2.css",
-    "static/js/main.49bd5cb2.js"
+    "static/js/main.8d281515.js"
   ]
 }
