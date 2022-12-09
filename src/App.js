@@ -23,8 +23,8 @@ import AdminHome from './pages/admin/AdminHome';
 function App() {
   // const user = localStorage.getItem("token");
   return (
-    // <HashRouter >
-      <Router> 
+    <HashRouter >
+      {/* <Router>  */}
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route exact path='/me-events' element={<MeEvents />} />
@@ -42,8 +42,8 @@ function App() {
         <Route exact path='/admin' element={<AdminLogin />} /> */}
         <Route exact path='/*' element={<PageNotFound />} />
       </Routes>
-      </Router>
-    // </HashRouter >
+      {/* </Router> */}
+    </HashRouter >
   )
 }
 
