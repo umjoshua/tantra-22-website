@@ -4,7 +4,7 @@ const AdsEventData = [
         name: 'GNIDOC',
         description: 'Participants have to find solution for a given problem using any programming language. Particpants must have a hackerrank account',
         event_type: 'Competition',
-        fee: 'FREE',
+        fee: 'FREE (Closed)',
         student1: 'Austine S Manuel',
         s1_phone: 9460388733,
         student2: 'Amritha Pradeep',
