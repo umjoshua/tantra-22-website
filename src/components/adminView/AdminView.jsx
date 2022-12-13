@@ -8,7 +8,7 @@ import { CSVLink } from "react-csv";
 
 function AdminView() {
     // let baseUrl = 'https://tantra-prod-test-s9utur.mo4.mogenius.io/admin/api/'
-    let baseUrl = 'https://cautious-waistcoat-mite.cyclic.app/admin/api/'
+    let baseUrl = 'https://determined-veil-toad.cyclic.app/admin/api/';
     let url = baseUrl + "responses";
 
     const handleLogout = () => {
